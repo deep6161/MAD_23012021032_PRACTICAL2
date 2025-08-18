@@ -28,9 +28,9 @@ Create an Android application to demonstrate the functions of the Activity Lifec
 ## Screenshots
 | Preview | Description |
 |--------|-------------|
-| <img src="https://raw.githubusercontent.com/deep6161/MAD_23012021032_PRACTICAL2/master/SCREENSHOT/SCRREENSHOT-1.png" width="250> | **Logcat display** showing lifecycle method logs |
-| <img src="https://raw.githubusercontent.com/deep6161/MAD_23012021032_PRACTICAL2/master/SCREENSHOT/Screenshot_20250818_132814.png width="250""> | **Snackbar message** demonstration |
-| <img src="https://raw.githubusercontent.com/deep6161/MAD_23012021032_PRACTICAL2/master/SCREENSHOT/Screenshot_20250818_132832.png width="250""> | **Toast message** demonstration |
+| <img src="https://raw.githubusercontent.com/deep6161/MAD_23012021032_PRACTICAL2/master/SCREENSHOT/SCRREENSHOT-1.png" width="250" > | **Logcat display** showing lifecycle method logs |
+| <img src="https://raw.githubusercontent.com/deep6161/MAD_23012021032_PRACTICAL2/master/SCREENSHOT/Screenshot_20250818_132814.png" width="250"> | **Snackbar message** demonstration |
+| <img src="https://raw.githubusercontent.com/deep6161/MAD_23012021032_PRACTICAL2/master/SCREENSHOT/Screenshot_20250818_132832.png" width="250"> | **Toast message** demonstration |
 
 ---
 
