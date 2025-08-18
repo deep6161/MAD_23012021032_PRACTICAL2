@@ -1,15 +1,52 @@
-# MAD Practical-2
+# Practical-2: Android Activity Lifecycle & Basic UI Demo
 
-## Android Application to demonstrate Activity Life Cycle and Basic UI Components.
+## Aim
+Create an Android application to demonstrate the functions of the Activity Lifecycle and basic UI components.
 
-This application demonstrates the functionalities of the Activity Life Cycle in Android. It includes logging messages, Toast messages, and Snackbar messages to trace the different states of an activity.
+## Requirements
+- **Hello World** app with:
+  - A `TextView` centered on the screen.
+  - Yellow background (`android:background="#FFFF00"`).
+  - `TextView` properties:
+    - Text: “Hello World”
+    - Color: Holo Blue bright (`android:textColor="@android:color/holo_blue_bright"`)
+    - Font size: `27sp`
+    - Text style: **bold** and *italic* (`android:textStyle="bold|italic"`).
+- Logging lifecycle callbacks to Logcat using `Log`.
+- Displaying lifecycle events using both `Toast` and `Snackbar`.
+- Ensure logs are printed for **all** Activity lifecycle methods.
+
+## Study Topics
+- `TextView` and its attributes
+- `Toast` messages
+- `Snackbar` messages
+- Android built-in color resources
+- Activity Lifecycle methods
+- Logging with `Logcat`
+- `ConstraintLayout`, generating IDs for UI components
+
+## Screenshots
+| Preview | Description |
+|--------|-------------|
+| ![Screenshot-1](SCREENSHOT-1.png) | **Logcat display** showing lifecycle method logs |
+| ![Screenshot 2025-08-18 13:28:14](Screenshot_20250818_132814.png) | **Snackbar message** demonstration |
+| ![Screenshot 2025-08-18 13:28:32](Screenshot_20250818_132832.png) | **Toast message** demonstration |
 
 ---
 
-## Screenshots
+## How to Run
+1. Open the project in **Android Studio**.
+2. Build and run on an emulator or physical device.
+3. Observe:
+   - The `TextView` with correct styling and positioning.
+   - Logcat entries for each lifecycle method.
+   - Toast and Snackbar messages appearing at appropriate lifecycle points (e.g., `onStart()`, `onResume()`, `onPause()`, etc.).
 
-| Screenshot                                                                                                                       | Caption                     |
-| -------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| <img src="https://raw.githubusercontent.com/deep6161/MAD_23012021032_PRACTICAL2/master/SCREENSHOT/SCRREENSHOT-1.png" width="250">      | Application Icon            |
-| <img src="https://raw.githubusercontent.com/deep6161/MAD_23012021032_PRACTICAL2/master/SCREENSHOT/Screenshot_20250818_132814.png" width="250"> | Main Activity - Hello World |
-| <img src="https://raw.githubusercontent.com/deep6161/MAD_23012021032_PRACTICAL2/master/SCREENSHOT/Screenshot_20250818_132832.png" width="250"> | Activity Life Cycle Logcat  |
+## Notes
+- Use `ConstraintLayout` as the root layout.
+- Use `Log.d(TAG, "methodName called")` inside each overridden lifecycle callback, where `TAG` is your class name identifier.
+- Invoke `Toast.makeText(...)` and `Snackbar.make(...).show()` at matching lifecycle methods to demonstrate both UI notification types.
+
+---
+
+**Enjoy exploring the Activity Lifecycle behavior visually and via logs!**
