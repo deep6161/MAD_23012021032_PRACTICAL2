@@ -7,6 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.android.material.snackbar.Snackbar
+import com.google.android.material.snackbar.Snackbar.SnackbarLayout
+import com.google.android.material.snackbar.SnackbarContentLayout
 
 
 class MainActivity : AppCompatActivity() {
@@ -26,7 +29,10 @@ class MainActivity : AppCompatActivity() {
 
     fun showmes(msg:String){
         Log.i(TAG, "$msg")
-        Toast.makeText( this,msg, Toast.LENGTH_SHORT).show()
+       // Toast.makeText( this,msg, Toast.LENGTH_SHORT).show()
+
+        Snackbar.make(findViewById(R.id.main), msg, Snackbar.LENGTH_SHORT).show()
+
 
 
 
